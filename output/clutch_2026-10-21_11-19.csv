@@ -1,0 +1,76 @@
+﻿rank,name,rating,reviews,location,tagline,description
+1,Simform,4.8,88,"Orlando, FL",n/a,"Simform is a comprehensive software development company specializing in custom software creation, tailored software development, and full-stack software development. Client feedback indicates a 100% s"
+2,Kingsmen Digital Ventures,5,14,"Irvine, CA",n/a,"Kingsmen Digital Ventures is a distinguished firm specializing in Custom Software Development, offering services across tailored, bespoke, and full-stack software development. The company consistently"
+3,Goji Labs,5,91,"Los Angeles, CA",n/a,"Goji Labs is a bespoke software development company that excels in crafting tailored software solutions, including custom mobile and web applications. The reviews highlight their exceptional project m"
+4,BairesDev,4.9,63,"San Francisco, CA",n/a,"BairesDev is a bespoke software development company specializing in custom software creation and full-stack software development. With high ratings and a reputation for delivering on time, 90% of revi"
+5,Geniusee,5,71,"Warszawa, Poland",n/a,"Geniusee is a Custom Software Development company, excelling in tailored software creation and end-to-end software development services. Reviews consistently highlight their impressive UX/UI design, e"
+6,Fingent,4.9,66,"White Plains, NY",n/a,"Fingent is a Custom Software Development company specializing in bespoke software creation, full-stack development, and end-to-end software engineering solutions. They have a strong reputation for mee"
+7,Leobit,5,63,"L'viv, Ukraine",n/a,"Leobit is a Custom Software Development company specializing in tailored and full-stack software solutions. With high ratings and a reputation for technical expertise, 100% of reviews highlight their "
+8,Swovo,5,36,"Boulder, CO",n/a,Swovo is a custom software creation company specializing in end-to-end software development and tailored software engineering services. Their clients consistently praise Swovo for their effective proj
+9,AgileEngine,5,66,"Boca Raton, FL",n/a,"AgileEngine is a Custom Software Development company highly regarded for their expertise in tailored software creation and full stack development. They receive overwhelmingly positive feedback, with a"
+10,Agency Partner Interactive LLC,4.9,87,"Plano, TX",n/a,"Agency Partner Interactive LLC is a custom software development company specializing in mobile application design, UX/UI design, and bespoke software development. Across various projects, 100% of revi"
+11,Infinum,4.8,58,"New York, NY",n/a,"Infinum is a prominent custom software development company that excels in creating tailored software solutions, including mobile applications, cloud services, and IoT development. Across their reviews"
+12,Sedin Technologies,4.7,42,"Sunnyvale, CA",n/a,"Sedin Technologies is a bespoke software development company praised for their commitment to providing tailored software development solutions. They are recognized for their high-quality deliverables,"
+13,Azumo,4.9,27,"San Francisco, CA",n/a,"Azumo, a custom software development company, is highly regarded for its expertise in tailored and bespoke software creation. The company consistently receives positive feedback, with clients praising"
+14,Itransition,4.9,42,"Decatur, GA",n/a,"Itransition is a comprehensive custom software development company excelling in delivering tailored software development solutions across various industries. With over 90% positive feedback, clients f"
+15,Merixstudio,4.8,97,"Poznań, Poland",n/a,Merixstudio is a bespoke software development company known for its comprehensive custom software creation and end-to-end software development services. Consistently praised for quality and communicat
+16,JPLoft,5,101,"Denver, CO",n/a,"JPLoft is a proficient software development company, specializing in custom software creation and end-to-end software engineering for diverse industries. Reviews indicate overwhelmingly positive feedb"
+17,Miles IT,5,15,"Tampa, FL",n/a,"Miles IT is a Custom Software Creation company that excels in delivering tailored software solutions and comprehensive IT support. The company receives overwhelmingly positive feedback, with clients p"
+18,Velvetech LLC,5,22,"Sunny Isles Beach, FL",n/a,"Velvetech LLC is a software development company specializing in custom software creation, tailored software development, and end-to-end software engineering. Feedback from clients is overwhelmingly po"
+19,Lumitech,5,56,"Dubai, United Arab Emirates",n/a,"Lumitech is a bespoke software development company specializing in full-stack and custom software creation. Across reviews, 100% of clients highlight their project management excellence, timely delive"
+20,Pell Software,5,31,"Denver, CO",n/a,Pell Software is a custom software development company specializing in end-to-end software engineering solutions. The overwhelming feedback from their clients highlights their exceptional communicatio
+21,Fulcrum,4.9,40,"Warszawa, Poland",n/a,"Fulcrum is a bespoke software development company that excels in end-to-end software engineering, including UI/UX design, full stack development, and managed software development. Their reviews reflec"
+22,Valere,4.8,59,"Boston, MA",n/a,"Valere is a custom software development company specializing in bespoke software creation and full-stack software development. Reviews indicate an 85% positive feedback rate, with clients praising the"
+23,Trigma,5,139,"Sahibzada Ajit Singh Nagar, India",n/a,"Trigma is a company specializing in tailored software development, offering services such as AI integration, custom software creation, and full-stack software development. Across various reviews, 100%"
+24,TRooTech Business Solutions,4.6,20,"Ahmedabad, India",n/a,"TRooTech Business Solutions is a custom software development company offering tailored and end-to-end software development services. With 100% positive reviews, clients commend their project managemen"
+25,Plavno,4.9,56,"Alexandria, VA",n/a,"Plavno is a comprehensive software development company specializing in tailored software development, end-to-end software development, and bespoke software creation. Their clients consistently praise "
+26,Kindgeek,4.8,63,"L'viv, Ukraine",n/a,Kindgeek is a Custom Software Development company renowned for its expertise in tailored software creation and end-to-end software development solutions. Reviews highlight their proactive project mana
+27,Flux IT,4.9,11,"Buenos Aires, Argentina",n/a,"Flux IT is a bespoke software development company specializing in custom software creation and full-stack software development services. They consistently receive positive feedback for their speed, qu"
+28,Darly Solutions,5,34,"McKinney, TX",n/a,"Darly Solutions, a custom software development company, specializes in tailored software creation and full-stack software development. Their reviews highlight a 100% positive reception, emphasizing th"
+29,Techstack company,5,47,"Wrocław, Poland",n/a,"Techstack company is a custom software development firm specializing in tailored and full-stack software development solutions. With an impressive 100% positive feedback rate, clients consistently pra"
+30,Future Processing,4.7,51,"Gliwice, Poland",n/a,Future Processing is a custom software development company specializing in bespoke software creation and full-stack software development. Reviews highlight their exceptional adaptability to clients’ n
+31,WyeWorks,4.9,14,"Montevideo, Uruguay",n/a,"WyeWorks is a bespoke software development company specializing in tailored solutions, including full stack and custom software creation. Across reviews, 100% of clients highlight their strong integra"
+32,Redlab agency,5,36,"Chernihiv, Ukraine",n/a,"Redlab agency specializes in bespoke software development, offering comprehensive services in custom software creation, full-stack software development, and software engineering. Their reviews highlig"
+33,unicrew,5,62,"London, England",n/a,"unicrew is a bespoke software development company specializing in custom software creation and end-to-end software development. They receive overwhelmingly positive feedback, with 100% of reviewers pr"
+34,Scalefocus,4.9,39,"Sofia, Bulgaria",n/a,"Scalefocus is a bespoke software development company known for its comprehensive software engineering solutions, including custom software creation and managed software development. Their clients freq"
+35,CodeFulcrum,4.8,16,"Dubai, United Arab Emirates",n/a,CodeFulcrum is a bespoke software development company specializing in end-to-end software engineering solutions. They excel in tailoring custom software creation to meet specific client needs across d
+36,Activeone,4.8,13,"Medellín, Colombia",n/a,"Activeone is a custom software development company specializing in tailored solutions, including end-to-end software development, integration, and software engineering. They receive overwhelmingly pos"
+37,SapientPro,5,43,"Luzern, Switzerland",n/a,"SapientPro is a Custom Software Development company specializing in tailored software creation, full-stack development, and end-to-end software engineering services. Their reviews reflect a 100% posit"
+38,Gearheart.io,4.9,14,"Kyiv, Ukraine",n/a,"Gearheart.io is a distinguished custom software development company specializing in bespoke software creation and full-stack software development. The company garners high praise across reviews, with "
+39,Brocoders,5,38,"Tallinn, Estonia",n/a,"Brocoders is a bespoke software development company specializing in tailored software solutions across various industries. With overwhelmingly positive feedback, 100% of reviewers praised their projec"
+40,Experion Technologies,4.9,57,"Plano, TX",n/a,Experion Technologies is a distinguished Custom Software Development company that excels in delivering bespoke software solutions tailored to diverse client needs. Their extensive expertise in softwar
+41,RichBrains,5,6,"Vilnius, Lithuania",n/a,"RichBrains is a bespoke software development company renowned for its tailored software creation and end-to-end software development services. The company consistently receives positive feedback, with"
+42,Danavero Inc.,4.9,18,"Burlington, Canada",n/a,Danavero Inc. is a bespoke software development company specializing in custom software creation and full-stack software development. The reviews highlight their impressive project management skills a
+43,AltoLeap Inc.,5,12,"Toronto, Canada",n/a,AltoLeap Inc. is a bespoke software development company specializing in custom software creation and full-stack software development solutions. Reviews highlight their adaptability and commitment to c
+44,GOTOMA Software House,5,13,"Nowy Sącz, Poland",n/a,"GOTOMA Software House is a Custom Software Creation company specializing in tailored software development for various industries. Their reviews highlight a consistent delivery of high-quality, full-st"
+45,Apzumi,4.9,49,"Poznań, Poland",n/a,"Apzumi is a bespoke software development company specializing in tailored software solutions, particularly within the healthcare sector. Across their reviews, clients consistently praise their technic"
+46,Spiria,4.9,27,"Montréal, Canada",n/a,"Spiria is a Custom Software Development company specializing in tailored and bespoke software solutions. Based on numerous reviews, 100% of clients praise Spiria’s technical expertise, professionalism"
+47,Euvic,4.8,22,"Gliwice, Poland",n/a,"Euvic is a prominent company specializing in tailored software development, offering a wide array of services from custom software creation to full stack software development. Their reviews highlight "
+48,Mallow Technologies Private Limited,5,21,"Karur, India",n/a,"Mallow Technologies Private Limited excels in tailored software development, providing comprehensive solutions from strategy to implementation. Reviews reveal a 100% positive feedback rate, highlighti"
+49,Software Mind S.A.,4.9,58,"Kraków, Poland",n/a,"Software Mind S.A. is a custom software development company known for its expertise in tailored software development, full-stack software development, and managed software development. Reviews highlig"
+50,Coherent Solutions,4.7,30,"Minneapolis, MN",n/a,Coherent Solutions is a tailored software development company offering custom software creation and end-to-end software development services. The company consistently receives positive feedback for it
+51,Empat,n/a,n/a,"San Francisco, CA",n/a,n/a
+52,"Six Feet Up, Inc.",n/a,n/a,"Fishers, IN",n/a,n/a
+53,Capital Numbers,n/a,n/a,"New Delhi, India",n/a,n/a
+54,"Digis, a Fiverr company (NYSE: FVRR)",n/a,n/a,"London, England",n/a,n/a
+55,RapidDev,n/a,n/a,n/a,n/a,n/a
+56,Redberry | Laravel Premier Partner & Official Vue Partner,n/a,n/a,"T'bilisi, Georgia",n/a,n/a
+57,OAKS LAB,n/a,n/a,"Prague, Czech Republic",n/a,n/a
+58,UplineSoft,n/a,n/a,"New York, NY",n/a,n/a
+59,Zoolatech,n/a,n/a,"Miami, FL",n/a,n/a
+60,INOXOFT,n/a,n/a,"Newark, DE",n/a,n/a
+61,Arbisoft,n/a,n/a,"Plano, TX",n/a,n/a
+62,Airdev,n/a,n/a,"San Francisco, CA",n/a,n/a
+63,Rootquotient,n/a,n/a,"Toronto, Canada",n/a,n/a
+64,ROCKETECH,n/a,n/a,"Kyiv, Ukraine",n/a,n/a
+65,Fora Soft,n/a,n/a,"Hong Kong, Hong Kong",n/a,n/a
+66,Vega IT,n/a,n/a,"Novi Sad, Serbia",n/a,n/a
+67,GeekyAnts,n/a,n/a,"Bengaluru, India",n/a,n/a
+68,Designli,n/a,n/a,"Greenville, SC",n/a,n/a
+69,Vention,n/a,n/a,"New York, NY",n/a,n/a
+70,DBB Software,n/a,n/a,"Kraków, Poland",n/a,n/a
+71,99x - Nearshore Engineers & AI Agents,n/a,n/a,"Oslo, Norway",n/a,n/a
+72,Temy,n/a,n/a,"L'viv, Ukraine",n/a,n/a
+73,Scalo,n/a,n/a,"Wrocław, Poland",n/a,n/a
+74,Synodus,n/a,n/a,"Hanoi, Vietnam",n/a,n/a
+75,Luby Software - AI SW Development & Legacy Modernization,n/a,n/a,"São Paulo, Brazil",n/a,n/a

@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 *.pyo
 .env
-output/
 *.png
 *.html

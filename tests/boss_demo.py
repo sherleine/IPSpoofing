@@ -1,13 +1,5 @@
 """
 IP Rotation Prototype — Boss Demo
-
-Shows:
-1. Your real IP (no proxy)
-2. IP hidden through Tor
-3. Auto-switch on block — new IP, fully automatic
-4. 3 consecutive rotations with distinct IPs
-5. Real Clutch.co data pulled earlier through the same system
-
 Tor Browser must be open and connected before running.
 """
 import time
@@ -25,75 +17,104 @@ def get_ip(proxies=None):
     return r.json()["ip"]
 
 def rotate():
-    print(f"  [!] Rotating — waiting {COOLDOWN}s for new Tor circuit...")
-    with Controller.from_port(port=CTRL) as c:
-        c.authenticate()
-        c.signal(Signal.NEWNYM)
-    time.sleep(COOLDOWN)
+    print("  >> Sending signal to Tor — building new circuit...")
+    try:
+        with Controller.from_port(port=CTRL) as c:
+            c.authenticate()
+            c.signal(Signal.NEWNYM)
+        time.sleep(COOLDOWN)
+    except Exception:
+        print("  [!] Control port dropped — reopen Tor Browser and retry.")
+        raise
 
-def sep(title=""):
-    print(f"\n{'-'*55}")
-    if title:
-        print(f"  {title}")
-        print(f"{'-'*55}")
+def box(text):
+    w = len(text) + 4
+    print("\n  " + "=" * w)
+    print(f"  | {text} |")
+    print("  " + "=" * w + "\n")
 
-print()
-print("=" * 55)
-print("   IP ROTATION PROTOTYPE — LIVE DEMO")
-print("=" * 55)
+def sep(title):
+    print(f"\n{'─'*55}")
+    print(f"  {title}")
+    print(f"{'─'*55}")
 
-# Step 1 — real IP
-sep("STEP 1: Your real IP (no proxy)")
+# ── START ────────────────────────────────────────────────
+print("\n" + "█" * 55)
+print("█  IP ROTATION PROTOTYPE — LIVE DEMO              █")
+print("█" * 55)
+
+# STEP 1
+sep("STEP 1 │ Your real IP — no proxy")
 real_ip = get_ip()
-print(f"  Real IP : {real_ip}")
-print(f"  Status  : visible to every site you contact")
+box(f"REAL IP:  {real_ip}  ← target sites see THIS")
+print("  Any website you visit knows exactly who you are.")
+input("\n  Press ENTER to continue...\n")
 
-# Step 2 — hidden through Tor
-sep("STEP 2: Same request routed through Tor")
+# STEP 2
+sep("STEP 2 │ Same request through Tor")
 tor_ip_1 = get_ip(TOR)
-print(f"  Exit IP : {tor_ip_1}")
-print(f"  Real IP : hidden — target sees {tor_ip_1}, not {real_ip}")
+box(f"EXIT IP:  {tor_ip_1}  ← target sees THIS instead")
+print(f"  Your real IP  {real_ip}  is completely hidden.")
+print(f"  The target only knows:  {tor_ip_1}")
+input("\n  Press ENTER to simulate a block...\n")
 
-# Step 3 — block + auto-switch
-sep("STEP 3: Block detected — auto-switching IP")
-print(f"  Simulating a block on {tor_ip_1}...")
+# STEP 3
+sep("STEP 3 │ Block detected — auto-switching IP")
+print(f"  Current IP:  {tor_ip_1}  ← got blocked")
 rotate()
 tor_ip_2 = get_ip(TOR)
-print(f"  Old IP  : {tor_ip_1}")
-print(f"  New IP  : {tor_ip_2}")
-print(f"  Result  : {'NEW IP — switched successfully' if tor_ip_2 != tor_ip_1 else 'same node assigned by Tor'}")
-print(f"  Effort  : NONE — fully automatic")
+print()
+print(f"  BEFORE:  {tor_ip_1}")
+print(f"  AFTER :  {tor_ip_2}")
+box(f"SWITCHED: {'YES — NEW IP ACTIVE' if tor_ip_2 != tor_ip_1 else 'same node, Tor reassigned'}")
+print("  Zero manual action. Happened automatically.")
+input("\n  Press ENTER to see 3 more rotations...\n")
 
-# Step 4 — 3 rotations
-sep("STEP 4: 3 consecutive rotations")
+# STEP 4
+sep("STEP 4 │ 3 consecutive rotations")
 ips = []
 for i in range(1, 4):
-    rotate()
-    ip = get_ip(TOR)
-    ips.append(ip)
-    print(f"  Request {i} : {ip}")
+    try:
+        rotate()
+        ip = get_ip(TOR)
+        ips.append(ip)
+        print(f"  Request {i}:  {ip}")
+    except Exception:
+        print(f"  Tor control port unavailable — reopen Tor Browser to continue.")
+        break
 
-# Step 5 — show real scraped data
-sep("STEP 5: Real data scraped from Clutch.co through this system")
-try:
-    with open("output/clutch_results.json") as f:
-        companies = json.load(f)
-    print(f"  Pulled {len(companies)} companies from clutch.co/developers\n")
-    print(f"  {'#':<4} {'Company':<38} {'Rating':<8} {'Reviews':<10} Location")
-    print(f"  {'-'*80}")
-    for i, c in enumerate(companies[:8], 1):
-        print(f"  {i:<4} {c['name']:<38} {c['rating']:<8} {c['reviews']:<10} {c['location']}")
-    print(f"  ... and {len(companies)-8} more companies")
-except FileNotFoundError:
-    print("  No saved results found — run scrapers/clutch_direct.py first")
+# STEP 5
+sep("STEP 5 │ Live scrape — Clutch.co company data")
+print("  Launching browser and scraping clutch.co/developers...")
+print("  (browser will open and scroll — this takes ~30 seconds)\n")
 
-# Summary
+import sys, os
+sys.path.insert(0, os.path.dirname(__file__))
+from fetch_clutch import scrape, save, CSV_OUT
+
+companies = scrape()
+csv_path  = save(companies)
+
+print(f"\n  Scraped {len(companies)} companies  →  saved to {csv_path}\n")
+print(f"  {'#':<4} {'Company':<35} {'Rating':<8} {'Reviews':<8} {'Location':<22} Description")
+print(f"  {'─'*105}")
+for c in companies[:6]:
+    desc = (c['description'][:40] + "...") if len(c['description']) > 40 else c['description']
+    print(f"  {c['rank']:<4} {c['name']:<35} {c['rating']:<8} {c['reviews']:<8} {c['location']:<22} {desc}")
+print(f"\n  ... and {len(companies)-6} more  |  full data in: {csv_path}")
+
+# SUMMARY
 sep("SUMMARY")
-all_ips = list({tor_ip_1, tor_ip_2} | set(ips))
-print(f"  Real IP        : {real_ip}")
-print(f"  Unique exit IPs: {len(all_ips)}  →  {', '.join(all_ips)}")
-print(f"  Auto-switched  : YES — triggered on block, zero manual action")
-print(f"  Cooldown       : {COOLDOWN}s between rotations")
-print(f"  Data scraped   : Clutch.co — {len(companies) if 'companies' in dir() else 0} companies")
-print(f"\n  Ready to connect to any large-scale scraping system.")
-print("=" * 55)
+all_ips = list(dict.fromkeys([real_ip, tor_ip_1, tor_ip_2] + ips))
+print(f"\n  {'Your real IP':<20} {real_ip}")
+print(f"  {'IPs used':<20} {len(all_ips) - 1} different exit IPs")
+for ip in all_ips[1:]:
+    print(f"  {'':20} {ip}")
+print(f"\n  {'Auto-switched':<20} YES — on block, zero manual action")
+print(f"  {'Cooldown':<20} {COOLDOWN}s between rotations")
+print(f"  {'Data scraped':<20} {len(companies) if 'companies' in dir() else 0} companies from Clutch.co")
+print(f"  {'Next step':<20} Connect to large-scale scraping system")
+
+print("\n" + "█" * 55)
+print("█  END OF DEMO                                     █")
+print("█" * 55 + "\n")

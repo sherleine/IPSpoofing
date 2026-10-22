@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 1,
+    "name": "Simform",
+    "rating": "4.8",
+    "reviews": "88",
+    "location": "Orlando, FL",
+    "description": "Simform is a comprehensive software development company specializing in custom software creation, tailored software development, and full-stack software development. Client feedback indicates a 100% satisfaction rate, highlighting their proactive communication, technical expertise, and commitment to"
+  },
+  {
+    "rank": 2,
+    "name": "Kingsmen Digital Ventures",
+    "rating": "5",
+    "reviews": "14",
+    "location": "Irvine, CA",
+    "description": "Kingsmen Digital Ventures is a distinguished firm specializing in Custom Software Development, offering services across tailored, bespoke, and full-stack software development. The company consistently receives high praise, with approximately 100% of reviewers highlighting their competence, timely de"
+  },
+  {
+    "rank": 3,
+    "name": "Goji Labs",
+    "rating": "5",
+    "reviews": "91",
+    "location": "Los Angeles, CA",
+    "description": "Goji Labs is a bespoke software development company that excels in crafting tailored software solutions, including custom mobile and web applications. The reviews highlight their exceptional project management, with 100% of feedback noting on-time delivery and responsive communication. Clients appre"
+  },
+  {
+    "rank": 4,
+    "name": "BairesDev",
+    "rating": "4.9",
+    "reviews": "63",
+    "location": "San Francisco, CA",
+    "description": "BairesDev is a bespoke software development company specializing in custom software creation and full-stack software development. With high ratings and a reputation for delivering on time, 90% of reviewers commend their responsiveness and the quality of their developers. Clients appreciate BairesDev"
+  },
+  {
+    "rank": 5,
+    "name": "Geniusee",
+    "rating": "5",
+    "reviews": "71",
+    "location": "Warszawa, Poland",
+    "description": "Geniusee is a Custom Software Development company, excelling in tailored software creation and end-to-end software development services. Reviews consistently highlight their impressive UX/UI design, effective project management, and flexibility in adapting to client needs. With a dedication to custo"
+  },
+  {
+    "rank": 6,
+    "name": "Fingent",
+    "rating": "4.9",
+    "reviews": "66",
+    "location": "White Plains, NY",
+    "description": "Fingent is a Custom Software Development company specializing in bespoke software creation, full-stack development, and end-to-end software engineering solutions. They have a strong reputation for meeting deadlines and delivering high-quality, tailored software products. Approximately 90% of reviewe"
+  },
+  {
+    "rank": 7,
+    "name": "Leobit",
+    "rating": "5",
+    "reviews": "63",
+    "location": "L'viv, Ukraine",
+    "description": "Leobit is a Custom Software Development company specializing in tailored and full-stack software solutions. With high ratings and a reputation for technical expertise, 100% of reviews highlight their on-time delivery and reliable project management. Clients consistently praise Leobit for their strat"
+  },
+  {
+    "rank": 8,
+    "name": "Swovo",
+    "rating": "5",
+    "reviews": "36",
+    "location": "Boulder, CO",
+    "description": "Swovo is a custom software creation company specializing in end-to-end software development and tailored software engineering services. Their clients consistently praise Swovo for their effective project management, on-time delivery, and high level of communication, with 100% positive feedback highl"
+  },
+  {
+    "rank": 9,
+    "name": "AgileEngine",
+    "rating": "5",
+    "reviews": "66",
+    "location": "Boca Raton, FL",
+    "description": "AgileEngine is a Custom Software Development company highly regarded for their expertise in tailored software creation and full stack development. They receive overwhelmingly positive feedback, with approximately 100% of reviewers praising their project management, professionalism, and ability to de"
+  },
+  {
+    "rank": 10,
+    "name": "Agency Partner Interactive LLC",
+    "rating": "4.9",
+    "reviews": "87",
+    "location": "Plano, TX",
+    "description": "Agency Partner Interactive LLC is a custom software development company specializing in mobile application design, UX/UI design, and bespoke software development. Across various projects, 100% of reviewers commend their strong project management and responsiveness, with clients praising their abilit"
+  },
+  {
+    "rank": 11,
+    "name": "Infinum",
+    "rating": "4.8",
+    "reviews": "58",
+    "location": "New York, NY",
+    "description": "Infinum is a prominent custom software development company that excels in creating tailored software solutions, including mobile applications, cloud services, and IoT development. Across their reviews, 100% of clients highlight their professionalism, effective project management, and technical exper"
+  },
+  {
+    "rank": 12,
+    "name": "Sedin Technologies",
+    "rating": "4.7",
+    "reviews": "42",
+    "location": "Sunnyvale, CA",
+    "description": "Sedin Technologies is a bespoke software development company praised for their commitment to providing tailored software development solutions. They are recognized for their high-quality deliverables, proactive engagement, and adherence to timelines. With nearly 100% positive feedback, clients comme"
+  },
+  {
+    "rank": 13,
+    "name": "Azumo",
+    "rating": "4.9",
+    "reviews": "27",
+    "location": "San Francisco, CA",
+    "description": "Azumo, a custom software development company, is highly regarded for its expertise in tailored and bespoke software creation. The company consistently receives positive feedback, with clients praising its project management, flexibility, and ability to deliver scalable solutions. Approximately 90% o"
+  },
+  {
+    "rank": 14,
+    "name": "Itransition",
+    "rating": "4.9",
+    "reviews": "42",
+    "location": "Decatur, GA",
+    "description": "Itransition is a comprehensive custom software development company excelling in delivering tailored software development solutions across various industries. With over 90% positive feedback, clients frequently praise their technical expertise, ability to integrate seamlessly with internal teams, and"
+  },
+  {
+    "rank": 15,
+    "name": "Merixstudio",
+    "rating": "4.8",
+    "reviews": "97",
+    "location": "Poznań, Poland",
+    "description": "Merixstudio is a bespoke software development company known for its comprehensive custom software creation and end-to-end software development services. Consistently praised for quality and communication, 100% of reviews highlight Merixstudio's ability to meet project requirements and deliver on tim"
+  },
+  {
+    "rank": 16,
+    "name": "JPLoft",
+    "rating": "5",
+    "reviews": "101",
+    "location": "Denver, CO",
+    "description": "JPLoft is a proficient software development company, specializing in custom software creation and end-to-end software engineering for diverse industries. Reviews indicate overwhelmingly positive feedback, with a focus on their ability to meet deadlines, adapt to changing requirements, and deliver hi"
+  },
+  {
+    "rank": 17,
+    "name": "Miles IT",
+    "rating": "5",
+    "reviews": "15",
+    "location": "Tampa, FL",
+    "description": "Miles IT is a Custom Software Creation company that excels in delivering tailored software solutions and comprehensive IT support. The company receives overwhelmingly positive feedback, with clients praising its commitment to excellence, customer-oriented approach, and effective communication. Appro"
+  },
+  {
+    "rank": 18,
+    "name": "Velvetech LLC",
+    "rating": "5",
+    "reviews": "22",
+    "location": "Sunny Isles Beach, FL",
+    "description": "Velvetech LLC is a software development company specializing in custom software creation, tailored software development, and end-to-end software engineering. Feedback from clients is overwhelmingly positive, with over 90% of reviewers noting their expertise and ability to deliver complex projects on"
+  },
+  {
+    "rank": 19,
+    "name": "Lumitech",
+    "rating": "5",
+    "reviews": "56",
+    "location": "Dubai, United Arab Emirates",
+    "description": "Lumitech is a bespoke software development company specializing in full-stack and custom software creation. Across reviews, 100% of clients highlight their project management excellence, timely delivery, and strong communication. Approximately 90% commend their problem-solving skills and attention t"
+  },
+  {
+    "rank": 20,
+    "name": "Pell Software",
+    "rating": "5",
+    "reviews": "31",
+    "location": "Denver, CO",
+    "description": "Pell Software is a custom software development company specializing in end-to-end software engineering solutions. The overwhelming feedback from their clients highlights their exceptional communication, responsiveness, and solution-oriented approach. With 100% positive reviews, Pell Software impress"
+  },
+  {
+    "rank": 21,
+    "name": "Fulcrum",
+    "rating": "4.9",
+    "reviews": "40",
+    "location": "Warszawa, Poland",
+    "description": "Fulcrum is a bespoke software development company that excels in end-to-end software engineering, including UI/UX design, full stack development, and managed software development. Their reviews reflect a strong emphasis on project management, timely delivery, and effective communication, with 90% of"
+  },
+  {
+    "rank": 22,
+    "name": "Valere",
+    "rating": "4.8",
+    "reviews": "59",
+    "location": "Boston, MA",
+    "description": "Valere is a custom software development company specializing in bespoke software creation and full-stack software development. Reviews indicate an 85% positive feedback rate, with clients praising their ability to deliver tailored software solutions and combine product thinking with hands-on executi"
+  },
+  {
+    "rank": 23,
+    "name": "Trigma",
+    "rating": "5",
+    "reviews": "139",
+    "location": "Sahibzada Ajit Singh Nagar, India",
+    "description": "Trigma is a company specializing in tailored software development, offering services such as AI integration, custom software creation, and full-stack software development. Across various reviews, 100% highlight their effective project management and 90% appreciate their adaptability and technical ex"
+  },
+  {
+    "rank": 24,
+    "name": "TRooTech Business Solutions",
+    "rating": "4.6",
+    "reviews": "20",
+    "location": "Ahmedabad, India",
+    "description": "TRooTech Business Solutions is a custom software development company offering tailored and end-to-end software development services. With 100% positive reviews, clients commend their project management, adherence to deadlines, and the ability to deliver reliable, quality software. Their commitment t"
+  },
+  {
+    "rank": 25,
+    "name": "Plavno",
+    "rating": "4.9",
+    "reviews": "56",
+    "location": "Alexandria, VA",
+    "description": "Plavno is a comprehensive software development company specializing in tailored software development, end-to-end software development, and bespoke software creation. Their clients consistently praise their technical expertise, particularly in AI and full stack software development, alongside their s"
+  },
+  {
+    "rank": 26,
+    "name": "Kindgeek",
+    "rating": "4.8",
+    "reviews": "63",
+    "location": "L'viv, Ukraine",
+    "description": "Kindgeek is a Custom Software Development company renowned for its expertise in tailored software creation and end-to-end software development solutions. Reviews highlight their proactive project management and ability to align with client goals, with 100% of feedback noting their strong technical e"
+  },
+  {
+    "rank": 27,
+    "name": "Flux IT",
+    "rating": "4.9",
+    "reviews": "11",
+    "location": "Buenos Aires, Argentina",
+    "description": "Flux IT is a bespoke software development company specializing in custom software creation and full-stack software development services. They consistently receive positive feedback for their speed, quality, and commitment to projects, with 100% of reviewers noting their effective communication and a"
+  },
+  {
+    "rank": 28,
+    "name": "Darly Solutions",
+    "rating": "5",
+    "reviews": "34",
+    "location": "McKinney, TX",
+    "description": "Darly Solutions, a custom software development company, specializes in tailored software creation and full-stack software development. Their reviews highlight a 100% positive reception, emphasizing their expertise in software engineering and agile project management. Clients praise their communicati"
+  },
+  {
+    "rank": 29,
+    "name": "Techstack company",
+    "rating": "5",
+    "reviews": "47",
+    "location": "Wrocław, Poland",
+    "description": "Techstack company is a custom software development firm specializing in tailored and full-stack software development solutions. With an impressive 100% positive feedback rate, clients consistently praise their technical proficiency, proactive communication, and commitment to understanding business n"
+  },
+  {
+    "rank": 30,
+    "name": "Future Processing",
+    "rating": "4.7",
+    "reviews": "51",
+    "location": "Gliwice, Poland",
+    "description": "Future Processing is a custom software development company specializing in bespoke software creation and full-stack software development. Reviews highlight their exceptional adaptability to clients’ needs, proactive project management, and high-quality deliverables, with approximately 85% of feedbac"
+  },
+  {
+    "rank": 31,
+    "name": "WyeWorks",
+    "rating": "4.9",
+    "reviews": "14",
+    "location": "Montevideo, Uruguay",
+    "description": "WyeWorks is a bespoke software development company specializing in tailored solutions, including full stack and custom software creation. Across reviews, 100% of clients highlight their strong integration with internal teams and consistent delivery of high-quality code. Clients praise their proactiv"
+  },
+  {
+    "rank": 32,
+    "name": "Redlab agency",
+    "rating": "5",
+    "reviews": "36",
+    "location": "Chernihiv, Ukraine",
+    "description": "Redlab agency specializes in bespoke software development, offering comprehensive services in custom software creation, full-stack software development, and software engineering. Their reviews highlight a consistent record of delivering high-quality projects on time, with a 100% positive feedback ra"
+  },
+  {
+    "rank": 33,
+    "name": "unicrew",
+    "rating": "5",
+    "reviews": "62",
+    "location": "London, England",
+    "description": "unicrew is a bespoke software development company specializing in custom software creation and end-to-end software development. They receive overwhelmingly positive feedback, with 100% of reviewers praising their project management skills and responsiveness. Clients consistently highlight the high q"
+  },
+  {
+    "rank": 34,
+    "name": "Scalefocus",
+    "rating": "4.9",
+    "reviews": "39",
+    "location": "Sofia, Bulgaria",
+    "description": "Scalefocus is a bespoke software development company known for its comprehensive software engineering solutions, including custom software creation and managed software development. Their clients frequently commend their technical expertise and seamless integration with internal teams, leading to im"
+  },
+  {
+    "rank": 35,
+    "name": "CodeFulcrum",
+    "rating": "4.8",
+    "reviews": "16",
+    "location": "Dubai, United Arab Emirates",
+    "description": "CodeFulcrum is a bespoke software development company specializing in end-to-end software engineering solutions. They excel in tailoring custom software creation to meet specific client needs across diverse industries, including real estate, fintech, and healthcare. The company receives overwhelming"
+  },
+  {
+    "rank": 36,
+    "name": "Activeone",
+    "rating": "4.8",
+    "reviews": "13",
+    "location": "Medellín, Colombia",
+    "description": "Activeone is a custom software development company specializing in tailored solutions, including end-to-end software development, integration, and software engineering. They receive overwhelmingly positive feedback, particularly for their technical expertise, timely delivery, and strong communicatio"
+  },
+  {
+    "rank": 37,
+    "name": "SapientPro",
+    "rating": "5",
+    "reviews": "43",
+    "location": "Luzern, Switzerland",
+    "description": "SapientPro is a Custom Software Development company specializing in tailored software creation, full-stack development, and end-to-end software engineering services. Their reviews reflect a 100% positive feedback rate, highlighting their professionalism, communication skills, and timely delivery. Ap"
+  },
+  {
+    "rank": 38,
+    "name": "Gearheart.io",
+    "rating": "4.9",
+    "reviews": "14",
+    "location": "Kyiv, Ukraine",
+    "description": "Gearheart.io is a distinguished custom software development company specializing in bespoke software creation and full-stack software development. The company garners high praise across reviews, with 100% of clients commending their project management and communication skills. Clients frequently not"
+  },
+  {
+    "rank": 39,
+    "name": "Brocoders",
+    "rating": "5",
+    "reviews": "38",
+    "location": "Tallinn, Estonia",
+    "description": "Brocoders is a bespoke software development company specializing in tailored software solutions across various industries. With overwhelmingly positive feedback, 100% of reviewers praised their project management, communication, and ability to meet deadlines. Brocoders stands out for their proactive"
+  },
+  {
+    "rank": 40,
+    "name": "Experion Technologies",
+    "rating": "4.9",
+    "reviews": "57",
+    "location": "Plano, TX",
+    "description": "Experion Technologies is a distinguished Custom Software Development company that excels in delivering bespoke software solutions tailored to diverse client needs. Their extensive expertise in software engineering is evident in their ability to work across various platforms, including web and mobile"
+  },
+  {
+    "rank": 41,
+    "name": "RichBrains",
+    "rating": "5",
+    "reviews": "6",
+    "location": "Vilnius, Lithuania",
+    "description": "RichBrains is a bespoke software development company renowned for its tailored software creation and end-to-end software development services. The company consistently receives positive feedback, with over 90% of reviewers praising its effective project management, cost-effectiveness, and alignment "
+  },
+  {
+    "rank": 42,
+    "name": "Danavero Inc.",
+    "rating": "4.9",
+    "reviews": "18",
+    "location": "Burlington, Canada",
+    "description": "Danavero Inc. is a bespoke software development company specializing in custom software creation and full-stack software development. The reviews highlight their impressive project management skills and ability to deliver projects on time, with 100% of reviewers noting their responsiveness and adapt"
+  },
+  {
+    "rank": 43,
+    "name": "AltoLeap Inc.",
+    "rating": "5",
+    "reviews": "12",
+    "location": "Toronto, Canada",
+    "description": "AltoLeap Inc. is a bespoke software development company specializing in custom software creation and full-stack software development solutions. Reviews highlight their adaptability and commitment to client needs, with an impressive 100% positive feedback rate. Approximately 85% of reviewers praised "
+  },
+  {
+    "rank": 44,
+    "name": "GOTOMA Software House",
+    "rating": "5",
+    "reviews": "13",
+    "location": "Nowy Sącz, Poland",
+    "description": "GOTOMA Software House is a Custom Software Creation company specializing in tailored software development for various industries. Their reviews highlight a consistent delivery of high-quality, full-stack software development services, with 100% of reviewers noting their professionalism and timely pr"
+  },
+  {
+    "rank": 45,
+    "name": "Apzumi",
+    "rating": "4.9",
+    "reviews": "49",
+    "location": "Poznań, Poland",
+    "description": "Apzumi is a bespoke software development company specializing in tailored software solutions, particularly within the healthcare sector. Across their reviews, clients consistently praise their technical expertise, proactivity, and commitment to project success, with approximately 90% noting their ef"
+  },
+  {
+    "rank": 46,
+    "name": "Spiria",
+    "rating": "4.9",
+    "reviews": "27",
+    "location": "Montréal, Canada",
+    "description": "Spiria is a Custom Software Development company specializing in tailored and bespoke software solutions. Based on numerous reviews, 100% of clients praise Spiria’s technical expertise, professionalism, and ability to integrate seamlessly with client teams. Approximately 80% of reviewers highlight th"
+  },
+  {
+    "rank": 47,
+    "name": "Euvic",
+    "rating": "4.8",
+    "reviews": "22",
+    "location": "Gliwice, Poland",
+    "description": "Euvic is a prominent company specializing in tailored software development, offering a wide array of services from custom software creation to full stack software development. Their reviews highlight exceptional project management, professionalism, and innovation, with approximately 90% of feedback "
+  },
+  {
+    "rank": 48,
+    "name": "Mallow Technologies Private Limited",
+    "rating": "5",
+    "reviews": "21",
+    "location": "Karur, India",
+    "description": "Mallow Technologies Private Limited excels in tailored software development, providing comprehensive solutions from strategy to implementation. Reviews reveal a 100% positive feedback rate, highlighting their timely deliverables, exceptional project management, and effective communication. Clients v"
+  },
+  {
+    "rank": 49,
+    "name": "Software Mind S.A.",
+    "rating": "4.9",
+    "reviews": "58",
+    "location": "Kraków, Poland",
+    "description": "Software Mind S.A. is a custom software development company known for its expertise in tailored software development, full-stack software development, and managed software development. Reviews highlight the company's strong cultural fit, adaptability, and consistent delivery of high-quality work. Ap"
+  },
+  {
+    "rank": 50,
+    "name": "Coherent Solutions",
+    "rating": "4.7",
+    "reviews": "30",
+    "location": "Minneapolis, MN",
+    "description": "Coherent Solutions is a tailored software development company offering custom software creation and end-to-end software development services. The company consistently receives positive feedback for its technical expertise, timely delivery, and effective communication, with over 90% of reviewers high"
+  },
+  {
+    "rank": 51,
+    "name": "Empat",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "San Francisco, CA",
+    "description": "n/a"
+  },
+  {
+    "rank": 52,
+    "name": "Six Feet Up, Inc.",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Fishers, IN",
+    "description": "n/a"
+  },
+  {
+    "rank": 53,
+    "name": "Capital Numbers",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "New Delhi, India",
+    "description": "n/a"
+  },
+  {
+    "rank": 54,
+    "name": "Digis, a Fiverr company (NYSE: FVRR)",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "London, England",
+    "description": "n/a"
+  },
+  {
+    "rank": 55,
+    "name": "RapidDev",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "n/a",
+    "description": "n/a"
+  },
+  {
+    "rank": 56,
+    "name": "Redberry | Laravel Premier Partner & Official Vue Partner",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "T'bilisi, Georgia",
+    "description": "n/a"
+  },
+  {
+    "rank": 57,
+    "name": "OAKS LAB",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Prague, Czech Republic",
+    "description": "n/a"
+  },
+  {
+    "rank": 58,
+    "name": "UplineSoft",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "New York, NY",
+    "description": "n/a"
+  },
+  {
+    "rank": 59,
+    "name": "Zoolatech",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Miami, FL",
+    "description": "n/a"
+  },
+  {
+    "rank": 60,
+    "name": "INOXOFT",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Newark, DE",
+    "description": "n/a"
+  },
+  {
+    "rank": 61,
+    "name": "Arbisoft",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Plano, TX",
+    "description": "n/a"
+  },
+  {
+    "rank": 62,
+    "name": "Airdev",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "San Francisco, CA",
+    "description": "n/a"
+  },
+  {
+    "rank": 63,
+    "name": "Rootquotient",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Toronto, Canada",
+    "description": "n/a"
+  },
+  {
+    "rank": 64,
+    "name": "ROCKETECH",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Kyiv, Ukraine",
+    "description": "n/a"
+  },
+  {
+    "rank": 65,
+    "name": "Fora Soft",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Hong Kong, Hong Kong",
+    "description": "n/a"
+  },
+  {
+    "rank": 66,
+    "name": "Vega IT",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Novi Sad, Serbia",
+    "description": "n/a"
+  },
+  {
+    "rank": 67,
+    "name": "GeekyAnts",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Bengaluru, India",
+    "description": "n/a"
+  },
+  {
+    "rank": 68,
+    "name": "Designli",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Greenville, SC",
+    "description": "n/a"
+  },
+  {
+    "rank": 69,
+    "name": "Vention",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "New York, NY",
+    "description": "n/a"
+  },
+  {
+    "rank": 70,
+    "name": "DBB Software",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Kraków, Poland",
+    "description": "n/a"
+  },
+  {
+    "rank": 71,
+    "name": "99x - Nearshore Engineers & AI Agents",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Oslo, Norway",
+    "description": "n/a"
+  },
+  {
+    "rank": 72,
+    "name": "Temy",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "L'viv, Ukraine",
+    "description": "n/a"
+  },
+  {
+    "rank": 73,
+    "name": "Scalo",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Wrocław, Poland",
+    "description": "n/a"
+  },
+  {
+    "rank": 74,
+    "name": "Synodus",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "Hanoi, Vietnam",
+    "description": "n/a"
+  },
+  {
+    "rank": 75,
+    "name": "Luby Software - AI SW Development & Legacy Modernization",
+    "rating": "n/a",
+    "reviews": "n/a",
+    "location": "São Paulo, Brazil",
+    "description": "n/a"
+  }
+]
